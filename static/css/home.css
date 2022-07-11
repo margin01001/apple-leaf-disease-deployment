@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Smooch&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Smooch', 'Montserrat', sans-serif;
+}
+body{ 
+  background-image: url('../img/other_leaf.jpg');
+  background-repeat: no-repeat;
+  background-size: 100% 110%;
+  background-attachment: fixed; /* because we don't want image to scroll */
+}
+.title{
+  font-size: 100px;
+}
+.main{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+  flex-direction: column;
+}
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-height: 900px;
+  background-color: rgb(160, 184, 154);
+  border-radius: 10px;
+  padding: 25px;
+}
+#img{
+  font-size: 20px;
+}
+.predict {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #054907;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+.predict:hover {
+  background-color: #022c02;
+}
+.predict:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
